@@ -1,0 +1,242 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.other.attribute-name.class.css",
+                "settings": {
+                    "foreground": "#19f9d8"
+                }
+            },'
+           
+            
+            
+            {
+                "scope": "constant.numeric.css",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "support.type.property-name.css",
+                "settings": {
+                    "foreground": "#AA9ED6"
+                }
+            },
+            
+            {
+                "scope": "string.quoted.double.html",
+                "settings": {
+                    "foreground": "#19f9d8"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name.html",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+           
+            {
+                "scope": "support.constant.property-value.css",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#19f9d8"
+                }
+            },
+           
+            
+            {
+                "scope": "keyword.other.unit.px.css",
+                "settings": {
+                    "foreground": "#ff6ea6"
+                }
+            },
+            {
+                "scope": "meta.property-value.css",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+
+            
+            {
+                "scope": "support.type.vendored.property-name.css",
+                "settings": {
+                    "foreground": "#AA9ED6"
+                }
+            },
+            {
+                "scope": "keyword.other.unit.percentage.css",
+                "settings": {
+                    "foreground": "#ff6ea6"
+                }
+            },
+            {
+                "scope": "string.quoted.single.css",
+                "settings": {
+                    "foreground": "#F7E3AF"
+                }
+            },
+            {
+                "scope": "support.function.transform.css",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "entity.name.tag.html",
+                "settings": {
+                    "foreground": "#ff6ea6"
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag.begin.html",
+                "settings": {
+                    "foreground": "#AA9ED6"
+                }
+            },
+
+            
+            {
+                "scope": "comment.block.css",
+                "settings": {
+                    "foreground": "#444"
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag.end.html",
+                "settings": {
+                    "foreground": "#AA9ED6"
+                }
+            },
+            {
+                "scope": "entity.name.tag.html",
+                "settings": {
+                    "foreground": "#AA9ED6"
+                }
+            },
+            {
+                "scope": "support.function.dom.js",
+                "settings": {
+                    "foreground": "#ff6ea6"
+                }
+            },
+            {
+                "scope": "support.variable.dom.js",
+                "settings": {
+                    "foreground": "#19f9d8"
+                }
+            },
+            {
+                "scope": "support.variable.property.dom.js",
+                "settings": {
+                    "foreground": "#ccc"
+                }
+            },
+            {
+                "scope": "variable.other.readwrite.js",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+            
+            {
+                "scope": "storage.type.function.js",
+                "settings": {
+                    "foreground": "#ccc"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.begin.js",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.end.js",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "variable.other.property.js",
+                "settings": {
+                    "foreground": "#ccc"
+                }
+            },
+            {
+                "scope": "keyword.operator.arithmetic.js",
+                "settings": {
+                    "foreground": "#ff6ea6"
+                }
+            },
+            {
+                "scope": "variable.other.object.js",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "support.class.console.js",
+                "settings": {
+                    "foreground": "#19f9d8"
+                }
+            },
+            {
+                "scope": "support.function.console.js",
+                "settings": {
+                    "foreground": "#19f9d8"
+                }
+            },
+            {
+                "scope": "constant.numeric.decimal.js",
+                "settings": {
+                    "foreground": "#ccc"
+                }
+            },
+            {
+                "scope": "storage.type.js",
+                "settings": {
+                    "foreground": "#F7E3AF"
+                }
+            },
+            {
+                "scope": "storage.type.function.js",
+                "settings": {
+                    "foreground": "#00d0f5"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.begin.js",
+                "settings": {
+                    "foreground": "#11fc57"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.end.js",
+                "settings": {
+                    "foreground": "#11fc57"
+                }
+            },
+            {
+                "scope": "string.quoted.single.js",
+                "settings": {
+                    "foreground": "#11fc57"
+                }
+            },
+            {
+                "scope": "string.quoted.double.js",
+                "settings": {
+                    "foreground": "#11fc57"
+                }
+            },
+
+        ]
+    }
+}

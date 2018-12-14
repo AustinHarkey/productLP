@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.container {
+    max-width: 1170px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 
+! ==========================================
+! HERO | START
+! ==========================================
+*/
+.hero {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to right top, #000000, #161616, #242424, #343434, #444444);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0, .4); 
+    z-index: 10;
+}
+
+.hero__waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+}
+
+
+.hero__contentWrapper {
+    display: flex;
+    position: relative;
+    z-index: 20;
+}
+
+.hero__column {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.hero__column--alt {
+    position: relative;
+}
+
+.hero__header {
+    font-size: 65px;
+    line-height: 60px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero__header--color {
+    color: #edd021;
+}
+
+.hero__subtext {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.9;
+}
+
+.hero__btn {
+    background: none;
+    color: #edd021;
+    display: inline-block;
+    align-self: flex-start;
+    padding: 12px 70px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 1px solid #edd021;
+    transition: all .08s ease-in-out;
+}
+
+.hero__btn:hover {
+    background: #edd021;
+    color: #000;
+}
+
+.hero__image {
+    width: 100%;
+    min-width: 400px;
+}
+
+/* 
+! ==========================================
+! HERO | END
+! ==========================================
+*/
+
+/* 
+! ==========================================
+! POINTS | START
+! ==========================================
+*/
+.points {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.points__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.points__point {
+    flex: 0 32%;
+    background: none;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #edd021;
+}
+
+.points__title {
+    color: #edd021;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.points__text {
+    color: #fff;
+    font-size: 14px;
+}
+/* 
+! ==========================================
+! POINTS | END
+! ==========================================
+*/
+
+/* 
+? ==========================================
+? MEDIA QUERIES
+? ==========================================
+*/
+@media (max-width: 960px) {
+    .hero__contentWrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .hero__header {
+        padding: 0 40px;
+    }
+
+    .hero__subtext {
+        padding: 0 40px;
+    }
+
+    .hero__btn {
+        justify-content: center;
+        align-self: center;
+        padding: 12px 80px;
+        background: #edd021;
+        color: #000;
+    }
+
+    .hero__column {
+        margin-top: 40px;
+    }
+
+    .hero__image {
+        max-width: 75%;
+        align-self: center;
+        min-width: 0;
+    }
+}
