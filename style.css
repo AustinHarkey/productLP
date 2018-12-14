@@ -162,6 +162,187 @@ body {
 */
 
 /* 
+! ==========================================
+! BULLETS LEFT | START
+! ==========================================
+*/
+.bulletLeft {
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+    color: #fff;
+
+}
+
+.bulletLeft::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .8;
+    z-index: 12;
+    transform: skewY(-5deg);
+    background: url('img/bg2.jpg');
+    background-size: cover;
+}
+
+.container--flex {
+    display: flex;
+    position: relative;
+    z-index: 14;
+}
+
+.bulletLeft__column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bulletLeft__column--two {
+    flex-grow: 1;
+    min-width: 550px;
+}
+
+.bulletLeft__header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bulletLeft__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bulletLeft__item {
+    padding: 20px 0;
+}
+
+.bulletLeft__title {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #edd021;
+}
+
+.bulletLeft__text  {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+.bulletLeft__image {
+    width: 100%;
+}
+
+/* 
+! ==========================================
+! BULLETS LEFT | END
+! ==========================================
+*/
+
+/* 
+! ==========================================
+! BULLETS RIGHT | START
+! ==========================================
+*/
+.bulletRight {
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+    color: #fff;
+    margin-top: 80px;
+
+}
+
+.bulletRight::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .8;
+    z-index: 12;
+    /* transform: skewY(-5deg);
+    background: url('img/bg2.jpg'); */
+    background-size: cover;
+}
+
+.container--flex {
+    display: flex;
+    position: relative;
+    z-index: 14;
+}
+
+.bulletRight__column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 2;
+    box-sizing:border-box;
+    padding: 20px;
+}
+
+.bulletRight__column--two {
+    flex-grow: 1;
+    min-width: 550px;
+    order: 1;
+}
+
+.bulletRight__header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bulletRight__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bulletRight__item {
+    padding: 20px 0;
+}
+
+.bulletRight__title {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #edd021;
+}
+
+.bulletRight__text  {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+.bulletRight__image {
+    width: 100%;
+}
+
+/* 
+! ==========================================
+! BULLETS LEFT | END
+! ==========================================
+*/
+
+/* 
 ? ==========================================
 ? MEDIA QUERIES
 ? ==========================================
@@ -200,5 +381,48 @@ body {
         max-width: 75%;
         align-self: center;
         min-width: 0;
+    }
+
+    .points__point {
+        flex: 0 0 49%;
+    }
+
+    .container--flex {
+        flex-direction: column;
+    }
+
+    .bulletLeft__column--two {
+        width: 100%;
+    }
+
+    .bulletLeft__image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* .bulletLeft__header {
+        text-align: center;
+    }
+
+    .bulletLeft__item {
+        text-align: center;
+    } */
+}
+
+@media (max-width: 650px) {
+    .points__point {
+        flex: 0 0 100%;
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+
+    .points__title {
+        padding: 10px 0 0;
+        margin: 0;
+    }
+
+    .points__text {
+        margin: 0;
+        padding: 0 0 15px;
     }
 }
